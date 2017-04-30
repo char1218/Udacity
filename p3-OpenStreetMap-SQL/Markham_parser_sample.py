@@ -4,8 +4,6 @@
 # In[ ]:
 
 
-
-
 # In[2]:
 
 import xml.etree.cElementTree as ET
