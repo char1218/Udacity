@@ -1,6 +1,5 @@
 
 # coding: utf-8
-
 # In[73]:
 
 import xml.etree.cElementTree as ET
@@ -38,11 +37,11 @@ def file_size(file_path):
 # Lets check the file size of MS Paint exe 
 # or you can use any file path
 # file_path = r"C:\Windows\System32\mspaint.exe"
-nodes = "nodes.csv"
-nodes_tags = "nodes_tags.csv"
-ways = "ways.csv"
-ways_tags = "ways_tags.csv"
-ways_nodes = "ways_nodes.csv"
+nodes = "nodes2.csv"
+nodes_tags = "nodes_tags2.csv"
+ways = "ways2.csv"
+ways_tags = "ways_tags2.csv"
+ways_nodes = "ways_nodes2.csv"
 toronto_canada2 = "toronto_canada2.osm"
 print ("Markham_map.osm file size:", file_size(Markham_file))
 print ("nodes.csv file size:", file_size(nodes))
