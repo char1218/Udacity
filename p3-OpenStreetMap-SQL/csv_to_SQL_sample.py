@@ -5,7 +5,6 @@
 
 
 
-
 # In[ ]:
 
 import sqlite3, csv
