@@ -149,7 +149,7 @@ Top 5 Places of Worship:
 
 Jesus reigns supreme with 19 places of worship! Asian faiths round off the bottom three of the top five with the Jewish faith coming in second.
 
-The religion section of the <a href"https://www.markham.ca/wps/wcm/connect/markhampublic/1d50758a-9236-4f2e-b818-a9a4115a77c6/Demographics-Fact-Sheet-2014.pdf?MOD=AJPERES&CACHEID=1d50758a-9236-4f2e-b818-a9a4115a77c6">Markham Demographics 2011, Quick facts</a> provide the following statistics:
+The religion section of the <a href="https://www.markham.ca/wps/wcm/connect/markhampublic/1d50758a-9236-4f2e-b818-a9a4115a77c6/Demographics-Fact-Sheet-2014.pdf?MOD=AJPERES&CACHEID=1d50758a-9236-4f2e-b818-a9a4115a77c6">Markham Demographics 2011, Quick facts</a> provide the following statistics:
 
 Number Percent (%)
 + Christian: 44
