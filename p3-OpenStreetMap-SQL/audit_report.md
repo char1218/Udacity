@@ -5,7 +5,6 @@
 #### Name: Heron Lau
 ---
 
-
   I currently reside in Markham and this is a perfect opportunity to take some time and explore my area!
   
 Here's the map of <a href="http://www.openstreetmap.org/search?query=markham%20ontario#map=12/43.8803/-79.2995">Markham</a> via Open Street Map.
@@ -150,7 +149,7 @@ Top 5 Places of Worship:
 
 Jesus reigns supreme with 19 places of worship! Asian faiths round off the bottom three of the top five with the Jewish faith coming in second.
 
-The religion section of the <a href"https://www.markham.ca/wps/wcm/connect/markhampublic/1d50758a-9236-4f2e-b818-a9a4115a77c6/Demographics-Fact-Sheet-2014.pdf?MOD=AJPERES&CACHEID=1d50758a-9236-4f2e-b818-a9a4115a77c6">Markham Demographics 2011, Quick facts</a href> provide the following statistics:
+The religion section of the <a href"https://www.markham.ca/wps/wcm/connect/markhampublic/1d50758a-9236-4f2e-b818-a9a4115a77c6/Demographics-Fact-Sheet-2014.pdf?MOD=AJPERES&CACHEID=1d50758a-9236-4f2e-b818-a9a4115a77c6">Markham Demographics 2011, Quick facts</a> provide the following statistics:
 
 Number Percent (%)
 + Christian: 44
@@ -214,7 +213,7 @@ According to the dataset, Markham is the place to go for asian food!
 
 Wait a minute, something doesn't add up. ONLY 40 CHINESE RESTAURANTS IN ALL OF MARKHAM?! Let's take a look at OpenStreetMap.
 
-This <a href="http://www.openstreetmap.org/#map=18/43.89333/-79.29227">plaza</a href> is located right by my house. From the looks of it, a couple of restaurants are missing. If that's the case, I'm going to assume that a lot of restaurants are missing from this dataset; meaning the data is incomplete. Since restaurants constantly change, I'll also make the assumption that the dataset may be out of date.
+This <a href="http://www.openstreetmap.org/#map=18/43.89333/-79.29227">plaza</a> is located right by my house. From the looks of it, a couple of restaurants are missing. If that's the case, I'm going to assume that a lot of restaurants are missing from this dataset; meaning the data is incomplete. Since restaurants constantly change, I'll also make the assumption that the dataset may be out of date.
 
 Again, there are only 509 contributors for the Markham dataset; 26.7% of which are one time contributors. Before this project, I've never even heard of OpenStreetMap. Word of this awesome application needs to spread! 
 
