@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmconvert 0.8.5" timestamp="2017-04-07T15:04:02Z">
+	<bounds minlat="43.201" minlon="-80.161" maxlat="44.182" maxlon="-78.717"/>
+	<node id="699540" lat="43.6751621" lon="-79.361332" version="11" timestamp="2013-04-09T01:43:19Z" changeset="15661098" uid="1679" user="andrewpmk"/>
+	<node id="699569" lat="43.7247576" lon="-79.3302633" version="4" timestamp="2012-11-28T16:44:20Z" changeset="14075648" uid="425846" user="WhiskyMacK"/>
+	<node id="699620" lat="43.8886452" lon="-78.9030291" version="8" timestamp="2016-06-11T20:53:06Z" changeset="39960484" uid="1679" user="andrewpmk">
+		<tag k="source" v="Bing"/>
+		<tag k="highway" v="traffic_signals"/>
+		<tag k="permissive_left_turn" v="n,s,e,w"/>
+	</node>
+	<node id="700843" lat="43.8825778" lon="-78.9099005" version="2" timestamp="2009-09-29T23:13:02Z" changeset="2682961" uid="1679" user="andrewpmk">
+		<tag k="source" v="yahoo"/>
+		<tag k="highway" v="turning_circle"/>
+	</node>
+	<node id="701384" lat="43.878376" lon="-78.9045144" version="2" timestamp="2009-09-28T19:56:17Z" changeset="2669031" uid="1679" user="andrewpmk">
+		<tag k="source" v="yahoo"/>
+		<tag k="highway" v="turning_circle"/>
+	</node>
+	<node id="701405" lat="43.8838305" lon="-78.8900569" version="3" timestamp="2014-07-15T19:47:36Z" changeset="24168181" uid="1679" user="andrewpmk">
+		<tag k="highway" v="traffic_signals"/>
+	</node>
+	<node id="702688" lat="43.8841443" lon="-78.902536" version="2" timestamp="2009-05-12T05:44:05Z" changeset="1160537" uid="1679" user="andrewpmk">
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="702689" lat="43.8841951" lon="-78.9022659" version="2" timestamp="2009-05-12T05:44:05Z" changeset="1160537" uid="1679" user="andrewpmk">
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="702690" lat="43.8842201" lon="-78.9019926" version="3" timestamp="2012-09-08T22:02:25Z" changeset="13038784" uid="1926" user="skohlsmith"/>
+	<node id="702725" lat="43.8892743" lon="-78.9005392" version="3" timestamp="2014-07-15T21:31:59Z" changeset="24170472" uid="51600" user="brandoncote"/>
+	<node id="702764" lat="43.8847437" lon="-78.8998817" version="2" timestamp="2009-05-12T05:44:05Z" changeset="1160537" uid="1679" user="andrewpmk">
+		<tag k="source" v="yahoo,gps"/>
+		<tag k="highway" v="turning_circle"/>
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="702783" lat="43.8888261" lon="-78.8995244" version="2" timestamp="2009-05-12T05:44:05Z" changeset="1160537" uid="1679" user="andrewpmk">
+		<tag k="source" v="yahoo,gps"/>
+		<tag k="highway" v="turning_circle"/>
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="702786" lat="43.8893057" lon="-78.8986566" version="2" timestamp="2009-05-12T05:44:05Z" changeset="1160537" uid="1679" user="andrewpmk">
+		<tag k="source" v="yahoo,gps"/>
+		<tag k="highway" v="turning_circle"/>
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="702787" lat="43.8843787" lon="-78.895097" version="4" timestamp="2014-07-15T21:03:12Z" changeset="24169852" uid="51600" user="brandoncote"/>
+	<node id="702792" lat="43.8871385" lon="-78.8927724" version="3" timestamp="2015-03-18T01:37:37Z" changeset="29554401" uid="1679" user="andrewpmk"/>
+	<node id="702793" lat="43.887399" lon="-78.8916621" version="3" timestamp="2015-03-18T01:37:37Z" changeset="29554401" uid="1679" user="andrewpmk"/>
+	<node id="702794" lat="43.8886761" lon="-78.8963397" version="2" timestamp="2011-05-14T16:45:29Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702796" lat="43.8890234" lon="-78.8948078" version="2" timestamp="2011-05-14T16:45:30Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702798" lat="43.8895115" lon="-78.892649" version="2" timestamp="2011-05-14T16:45:30Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702803" lat="43.88292" lon="-78.8944129" version="2" timestamp="2011-05-14T17:24:42Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702804" lat="43.8852854" lon="-78.8954913" version="4" timestamp="2014-07-15T21:03:12Z" changeset="24169852" uid="51600" user="brandoncote"/>
+	<node id="702805" lat="43.8856173" lon="-78.8956065" version="2" timestamp="2011-05-14T17:24:42Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702806" lat="43.8859901" lon="-78.8955525" version="2" timestamp="2011-05-14T17:24:42Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702809" lat="43.8873875" lon="-78.8959722" version="2" timestamp="2011-05-14T16:45:30Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702811" lat="43.8885631" lon="-78.8964255" version="2" timestamp="2011-05-14T16:45:30Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702840" lat="43.887834" lon="-78.8930892" version="2" timestamp="2011-05-14T16:55:43Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702841" lat="43.887903" lon="-78.8928107" version="4" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702842" lat="43.8879648" lon="-78.8928096" version="4" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702843" lat="43.8880403" lon="-78.8926736" version="3" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702844" lat="43.8880272" lon="-78.8925952" version="3" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702845" lat="43.8879873" lon="-78.8925379" version="3" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702846" lat="43.8878832" lon="-78.8925338" version="3" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702847" lat="43.8878358" lon="-78.8926008" version="4" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702848" lat="43.8878525" lon="-78.892767" version="4" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702850" lat="43.8886131" lon="-78.8931602" version="3" timestamp="2011-05-14T17:24:43Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702851" lat="43.8886873" lon="-78.8931757" version="3" timestamp="2011-05-14T17:24:44Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702852" lat="43.8887765" lon="-78.8930413" version="3" timestamp="2011-05-14T17:24:44Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702853" lat="43.8887642" lon="-78.8929513" version="3" timestamp="2011-05-14T17:24:44Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702854" lat="43.8887197" lon="-78.8928884" version="3" timestamp="2011-05-14T17:24:44Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702855" lat="43.8886139" lon="-78.8928869" version="3" timestamp="2011-05-14T17:24:44Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702856" lat="43.8885654" lon="-78.8929564" version="3" timestamp="2011-05-14T17:24:44Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702857" lat="43.8885618" lon="-78.8930796" version="3" timestamp="2011-05-14T17:24:44Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702858" lat="43.886439" lon="-78.8935897" version="2" timestamp="2011-05-14T16:55:44Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702859" lat="43.8863969" lon="-78.8934697" version="2" timestamp="2011-05-14T16:55:44Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702860" lat="43.8865514" lon="-78.8927688" version="2" timestamp="2011-05-14T16:55:44Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702861" lat="43.8865887" lon="-78.8926539" version="2" timestamp="2011-05-14T16:55:44Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702862" lat="43.8866521" lon="-78.8925965" version="2" timestamp="2011-05-14T16:55:44Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702863" lat="43.8867288" lon="-78.892591" version="2" timestamp="2011-05-14T16:55:44Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702865" lat="43.8882842" lon="-78.8944528" version="3" timestamp="2011-05-14T17:11:18Z" changeset="8143262" uid="51600" user="brandoncote"/>
+	<node id="702869" lat="43.8864951" lon="-78.8936345" version="2" timestamp="2011-05-14T16:55:44Z" changeset="8142963" uid="51600" user="brandoncote"/>
+	<node id="702871" lat="43.8909115" lon="-78.8933348" version="7" timestamp="2014-07-15T21:31:58Z" changeset="24170472" uid="51600" user="brandoncote">
+		<tag k="source" v="Bing"/>
+		<tag k="highway" v="traffic_signals"/>
+	</node>
+	<node id="702874" lat="43.8798379" lon="-78.9422152" version="11" timestamp="2014-08-25T00:19:11Z" changeset="24992312" uid="1679" user="andrewpmk">
+		<tag k="source" v="Bing"/>
+		<tag k="highway" v="traffic_signals"/>
+	</node>
+	<node id="702877" lat="43.8822966" lon="-78.9312228" version="2" timestamp="2010-05-23T04:13:52Z" changeset="4779835" uid="1679" user="andrewpmk"/>
+	<node id="702878" lat="43.8833598" lon="-78.9264757" version="2" timestamp="2009-08-11T04:20:14Z" changeset="2104181" uid="1679" user="andrewpmk"/>
+	<node id="702879" lat="43.8845202" lon="-78.9214989" version="2" timestamp="2011-11-20T04:45:51Z" changeset="9880131" uid="1679" user="andrewpmk"/>
+	<node id="702881" lat="43.8864621" lon="-78.9127492" version="6" timestamp="2014-10-04T23:38:50Z" changeset="25863204" uid="1679" user="andrewpmk">
+		<tag k="source" v="Bing"/>
+		<tag k="highway" v="traffic_signals"/>
+		<tag k="permissive_left_turn" v="n,s,e,w"/>
+	</node>
+	<node id="702882" lat="43.8898967" lon="-78.8978731" version="5" timestamp="2014-07-15T21:31:58Z" changeset="24170472" uid="51600" user="brandoncote"/>
+	<node id="703050" lat="43.8792835" lon="-78.9011205" version="2" timestamp="2008-07-21T07:02:35Z" changeset="560063" uid="1679" user="andrewpmk">
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="1497736" lat="43.731285" lon="-79.3304523" version="2" timestamp="2011-09-18T23:46:16Z" changeset="9338387" uid="1679" user="andrewpmk"/>
+	<node id="1497764" lat="43.7412456" lon="-79.332082" version="8" timestamp="2011-12-28T00:05:13Z" changeset="10221226" uid="1679" user="andrewpmk"/>
+	<node id="1497766" lat="43.7418685" lon="-79.3321184" version="7" timestamp="2011-08-01T02:42:46Z" changeset="8886821" uid="1679" user="andrewpmk"/>
+	<node id="1497768" lat="43.7450436" lon="-79.3327357" version="10" timestamp="2016-02-27T22:32:37Z" changeset="37490685" uid="40964" user="Kevo"/>
+	<node id="1497773" lat="43.7459924" lon="-79.3329589" version="7" timestamp="2011-08-01T02:40:27Z" changeset="8886817" uid="1679" user="andrewpmk"/>
+	<node id="1497776" lat="43.747316" lon="-79.3332228" version="8" timestamp="2011-12-28T00:05:13Z" changeset="10221226" uid="1679" user="andrewpmk"/>
+	<node id="1497778" lat="43.7484115" lon="-79.3333255" version="7" timestamp="2011-08-01T02:40:27Z" changeset="8886817" uid="1679" user="andrewpmk"/>
+	<node id="1497780" lat="43.7496991" lon="-79.333434" version="3" timestamp="2012-01-31T01:34:34Z" changeset="10545669" uid="1679" user="andrewpmk"/>
+	<node id="1497781" lat="43.7508526" lon="-79.3335368" version="3" timestamp="2012-01-31T01:34:34Z" changeset="10545669" uid="1679" user="andrewpmk"/>
+	<node id="1497785" lat="43.7518932" lon="-79.3336887" version="3" timestamp="2011-12-11T03:39:15Z" changeset="10086535" uid="1679" user="andrewpmk"/>
+	<node id="1497788" lat="43.7530819" lon="-79.3339332" version="2" timestamp="2008-05-20T05:38:24Z" changeset="483959" uid="1679" user="andrewpmk">
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="1497790" lat="43.7539499" lon="-79.3341564" version="2" timestamp="2008-05-20T05:38:24Z" changeset="483959" uid="1679" user="andrewpmk">
+		<tag k="created_by" v="JOSM"/>
+	</node>
+	<node id="1497793" lat="43.7550349" lon="-79.3345023" version="11" timestamp="2017-01-30T14:41:31Z" changeset="45653693" uid="4667606" user="manuelab_telenav">
+		<tag k="highway" v="motorway_junction"/>
+		<tag k="name" v="York Mills Road"/>
+		<tag k="noref" v="yes"/>
+	</node>
+</osm>
