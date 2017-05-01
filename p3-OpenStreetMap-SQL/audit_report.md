@@ -5,6 +5,7 @@
 #### Name: Heron Lau
 ---
 
+
   I currently reside in Markham and this is a perfect opportunity to take some time and explore my area!
   
 Here's the map of <a href="http://www.openstreetmap.org/search?query=markham%20ontario#map=12/43.8803/-79.2995">Markham</a> via Open Street Map.
@@ -29,8 +30,15 @@ and quantified the following elements:
 
 A key describes a topic, category, or type of feature within the map.
 I checked the key, or <code>k</code> value within the tags with the three expressions listed blelow:
-lower: key values that only contain lower case
-lower_colon: keys that contain colons
+<code>
+lower = re.compile(r'^([a-z]|_)*$')
+lower_colon = re.compile(r'^([a-z]|_)*:([a-z]|_)*$')
+problemchars = re.compile(r'[=\+/&<>;\'"\?%#$@\,\. \t\r\n]')
+</code></br/>
+
+
+lower: key values that only contain lower case<br/>
+lower_colon: keys that contain colons<br/>
 problemchars: keys that contain special characters
 other: keys that don't fall within the above expressions
 
@@ -51,6 +59,26 @@ The audit can be found in <code>Markham_audit.py</code>.
 
 ## 2.1 Street Names
 
+Names were updated with the following function:
+<code>
+def update_name(name, mapping):
+    after = []
+    if name.split("  "):
+        name = " ".join(name.split())
+    for part in name.split(" "):
+        if part in mapping.keys():
+            part = mapping[part]
+        after.append(part)
+    return " ".join(after)
+    return name
+
+for street_type, ways in map_audit_street.items():
+    for name in ways:
+        better_name = update_name(name, mapping)
+        print (name, "=>", better_name)
+</code>
+
+
 There were 3 types of problems that occured when auditing street names
 1. Non-Uniformed Abbreviations<br/>
 <code>Bur Oak Dr. => Bur Oak Drive</code><br/>
@@ -65,6 +93,18 @@ There were 3 types of problems that occured when auditing street names
 <code>Concession Road  8 => Concession Road 8</code><br/>
 
 ## 2.2 Postal Codes
+
+Likewise, postal codes are updated as follows:
+<code>
+def update_postal(postal, post_types):
+    post_codes = post_types[:3] + " " + post_types[3:]
+    post_codes2 = post_codes.upper()
+    return post_codes2
+
+for post_types, codes in map_audit_postal.items():
+        better_postal = update_postal(codes, post_types)
+        print (post_types, "=>", better_postal)
+</code>
 
 As for postal codes, I've noticed two of the following issues:
 1. Lack of spacing after the third digit<br/>
@@ -97,6 +137,15 @@ SQL Database queries can be found in <code>db_queries.py</code>.
 
 ## 4.1 Markham SQL DB Stats
 
+Queries are given as follows:
+<code>
+sqlite> SELECT COUNT (*) FROM nodes;
+
+sqlite> SELECT COUNT (*) FROM ways;
+
+sqlite> SELECT COUNT(DISTINCT(e.uid)) FROM (SELECT uid FROM nodes UNION ALL SELECT uid FROM ways) e;
+</code>
+
 There are a lot of nodes and ways in the Markham dataset!<br/>
 <code>Number of Markham nodes:  630074</code><br/>
 <code>Number of Markham ways:  89300</code><br/>
@@ -106,6 +155,12 @@ There's 509 unique contributors with 136 users with one time contributions.<br/>
 <code>One time contributors:  136</code><br/>
 
 ## 4.2 User Contributions
+
+The queries are given as follows:
+
+<code>
+sqlite> SELECT value, COUNT(*) as num FROM nodes_tags WHERE key="amenity" GROUP BY value ORDER BY num DESC LIMIT 10;
+</code>
 
 Top 5 contributors:
 + andrewpmk: 598,230 entries
@@ -149,7 +204,7 @@ Top 5 Places of Worship:
 
 Jesus reigns supreme with 19 places of worship! Asian faiths round off the bottom three of the top five with the Jewish faith coming in second.
 
-The religion section of the <a href="https://www.markham.ca/wps/wcm/connect/markhampublic/1d50758a-9236-4f2e-b818-a9a4115a77c6/Demographics-Fact-Sheet-2014.pdf?MOD=AJPERES&CACHEID=1d50758a-9236-4f2e-b818-a9a4115a77c6">Markham Demographics 2011, Quick facts</a> provide the following statistics:
+The religion section of the <a href"https://www.markham.ca/wps/wcm/connect/markhampublic/1d50758a-9236-4f2e-b818-a9a4115a77c6/Demographics-Fact-Sheet-2014.pdf?MOD=AJPERES&CACHEID=1d50758a-9236-4f2e-b818-a9a4115a77c6">Markham Demographics 2011, Quick facts</a href> provide the following statistics:
 
 Number Percent (%)
 + Christian: 44
@@ -213,7 +268,7 @@ According to the dataset, Markham is the place to go for asian food!
 
 Wait a minute, something doesn't add up. ONLY 40 CHINESE RESTAURANTS IN ALL OF MARKHAM?! Let's take a look at OpenStreetMap.
 
-This <a href="http://www.openstreetmap.org/#map=18/43.89333/-79.29227">plaza</a> is located right by my house. From the looks of it, a couple of restaurants are missing. If that's the case, I'm going to assume that a lot of restaurants are missing from this dataset; meaning the data is incomplete. Since restaurants constantly change, I'll also make the assumption that the dataset may be out of date.
+This <a href="http://www.openstreetmap.org/#map=18/43.89333/-79.29227">plaza</a href> is located right by my house. From the looks of it, a couple of restaurants are missing. If that's the case, I'm going to assume that a lot of restaurants are missing from this dataset; meaning the data is incomplete. Since restaurants constantly change, I'll also make the assumption that the dataset may be out of date.
 
 Again, there are only 509 contributors for the Markham dataset; 26.7% of which are one time contributors. Before this project, I've never even heard of OpenStreetMap. Word of this awesome application needs to spread! 
 
